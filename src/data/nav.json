@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Главная",
+        "link": "index.html"
+    },
+    {
+        "title": "Новости",
+        "link": "news.html"
+    },
+    {
+        "title": "Магазин",
+        "link": "shop.html"
+    }
+]
