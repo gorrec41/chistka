@@ -1,44 +1,53 @@
 @keyframes animation-bg {
     0% {
-        background-image: url(./../img/header/bg1.jpg);
-        color: #b6cde9;
+        background-image: url(./../img/header/bg2.jpg);
+        color: #f5dd01;
     }
     25% {
-        background-image: url(./../img/header/bg2.jpg);
-        color: #1a4f91;
+        background-image: url(./../img/header/bg3.jpg);
+        color: #f76606;
     }
     50% {
-        background-image: url(./../img/header/bg3.jpg);
-        color: #537297;
+        background-image: url(./../img/header/bg4.jpg);
+        color: #f7f306;
     }
     75% {
-        background-image: url(./../img/header/bg4.jpg);
-        color: #dde1e6;
+        background-image: url(./../img/header/bg5.jpg);
+        color: #f76606;
     }
     100% {
-        background-image: url(./../img/header/bg1.jpg);
-        color: #112131;
+        background-image: url(./../img/header/bg2.jpg);
+        color:  #e5f501;;
     }
 }
 @keyframes blur {
     from {
-      text-shadow:0px 0px 10px #fff,
-        0px 0px 10px #fff, 
-        0px 0px 25px #fff,
-        0px 0px 25px #fff,
-        0px 0px 25px #fff,
-        0px 0px 25px #fff,
-        0px 0px 25px #fff,
-        0px 0px 25px #fff,
-        0px 0px 50px #fff,
-        0px 0px 50px #7B96B8,
-        0px 0px 150px  #b6cde9,
-        0px 10px 100px  #b6cde9,
-        0px 10px 100px  #b6cde9,
-        0px 10px 100px  #b6cde9,
-        0px 10px 100px  #b6cde9,
-        0px -10px 100px #b6cde9,
-        0px -10px 100px #b6cde9;
+      text-shadow:0px 0px 10px rgb(253, 5, 5),
+        0px 0px 25px rgb(253, 5, 5),
+        0px 0px 25px rgb(51, 5, 253),
+        0px 0px 50px rgb(253, 5, 5),
+        0px 0px 50px rgb(253, 146, 5),
+        0px 0px 75px  rgb(253, 146, 5),
+        0px 10px 100px  rgb(253, 216, 5),
+        0px 10px 100px  rgb(253, 249, 5),
+        0px 10px 100px  rgb(104, 253, 5),
+        0px 10px 100px  rgb(46, 253, 5),
+        0px -10px 100px rgb(5, 195, 253),
+        0px -10px 100px rgb(30, 5, 253),
+        0px 0px 25px rgb(253, 5, 5),
+        0px 0px 25px rgb(51, 5, 253),
+        0px 0px 50px rgb(253, 5, 5);
     }
   }
-  
+  @keyframes btn-animation{
+    0%{
+        border-radius: 50% 0px 50% 0px;
+    }
+    50%{
+        border-radius: 0px 50% 0px 50% ;
+    }
+    100%{
+        border-radius: 50% 0px 50% 0px;
+    }
+    
+  }

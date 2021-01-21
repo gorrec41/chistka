@@ -4,3 +4,16 @@
     max-width: 1170px;
     height: 100%;
 }
+.btn{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 25px;
+    align-items: center;
+    color: $fontsColor;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: rgba(253, 146, 5, 1);
+    border: 2px solid $fontsColor;
+    animation: btn-animation 10s linear infinite;
+}

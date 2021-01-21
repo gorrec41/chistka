@@ -1,19 +1,63 @@
 .header{
+    position: relative;
     padding: 100px 0;
     width: 100%;
     min-height: 100vh;
     background-color: $colorbg;
-    background-image: url(./../img/header/bg1.jpg);
+    background-image: url(./../img/header/bg2.jpg);
     animation: animation-bg 30s linear infinite;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
-.fh{
-    font-size: 40px;
+.wrap_header-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -78%);
+    @media (min-width: 768px){
+        transform: translate(-50%, -31%);
+    }
+    @media (min-width: 1200px){
+        transform: translate(-50%, -41%);
+    }
+
+}
+.fh{  
+    font-size: 35px;
     font-family: $fonts;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     animation: blur 20s ease-out infinite;
+    @media (min-width: 768px){
+        font-size: 66px;
+        
+    }
+    @media (min-width: 1200px){
+        font-size: 90px;
+        
+    }
+}
+.subtitle{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.header__btn{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    &:hover{
+        .btn{
+            color: rgba(253, 146, 5, 1);
+            font-size: 22px;
+            font-weight: 700;
+            background-color: $fontsColor;
+            border: 2px solid rgba(253, 146, 5, 1);
+            transition: .7s;
+        }
+    }
 }

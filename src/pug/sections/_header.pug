@@ -1,4 +1,11 @@
+include ./../mixins/_title
+include ./../mixins/_subtitle
+include ./../mixins/_btn
 
 header.header
     .container
-        h2.fh #{jsonData.titlHeader}
+        .wrap_header-title
+            +title(jsonData.titlHeader)
+            +subtitle(jsonData.subTitleHeader)
+            .header__btn
+                +btn(jsonData.linkHeader,jsonData.btnHeader)
