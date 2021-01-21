@@ -51,3 +51,34 @@
     }
     
   }
+  @keyframes quote{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+  }
+  @keyframes section__quote{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    25%{
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    50%{
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+    75%{
+        transform: translate(-50%, -50%) rotate(135deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(180deg);
+
+    }
+   
+  }

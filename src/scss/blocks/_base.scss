@@ -1,3 +1,8 @@
+.header,
+section{
+    padding: 100px 0;
+}
+
 .container{
     margin: 0 auto;
     padding: 0 15px;
@@ -16,4 +21,9 @@
     background-color: rgba(253, 146, 5, 1);
     border: 2px solid $fontsColor;
     animation: btn-animation 10s linear infinite;
+}
+.content{
+    font-size: 28px;
+    font-family: $fonts;
+    font-weight: 500;
 }
