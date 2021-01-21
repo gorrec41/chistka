@@ -1,0 +1,44 @@
+@keyframes animation-bg {
+    0% {
+        background-image: url(./../img/header/bg1.jpg);
+        color: #b6cde9;
+    }
+    25% {
+        background-image: url(./../img/header/bg2.jpg);
+        color: #1a4f91;
+    }
+    50% {
+        background-image: url(./../img/header/bg3.jpg);
+        color: #537297;
+    }
+    75% {
+        background-image: url(./../img/header/bg4.jpg);
+        color: #dde1e6;
+    }
+    100% {
+        background-image: url(./../img/header/bg1.jpg);
+        color: #112131;
+    }
+}
+@keyframes blur {
+    from {
+      text-shadow:0px 0px 10px #fff,
+        0px 0px 10px #fff, 
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px  #b6cde9,
+        0px 10px 100px  #b6cde9,
+        0px 10px 100px  #b6cde9,
+        0px 10px 100px  #b6cde9,
+        0px 10px 100px  #b6cde9,
+        0px -10px 100px #b6cde9,
+        0px -10px 100px #b6cde9;
+    }
+  }
+  

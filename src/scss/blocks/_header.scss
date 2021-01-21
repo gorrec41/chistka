@@ -1,0 +1,19 @@
+.header{
+    padding: 100px 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: $colorbg;
+    background-image: url(./../img/header/bg1.jpg);
+    animation: animation-bg 30s linear infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fh{
+    font-size: 40px;
+    font-family: $fonts;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    animation: blur 20s ease-out infinite;
+}

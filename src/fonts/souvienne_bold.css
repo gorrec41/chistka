@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Souvienne Bold';
+	src: url('../fonts/souvienne_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/souvienne_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/souvienne_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/souvienne_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/souvienne_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/souvienne_bold.svg#souvienne_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
