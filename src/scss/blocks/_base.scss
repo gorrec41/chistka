@@ -18,7 +18,7 @@ section{
     color: $fontsColor;
     font-size: 22px;
     font-weight: 700;
-    background-color: rgba(253, 146, 5, 1);
+    background-color: #4e0eaa;;
     border: 2px solid $fontsColor;
     animation: btn-animation 10s linear infinite;
 }
@@ -28,5 +28,12 @@ section{
     font-weight: 500;
 }
 .section__title{
-    
+    font-size: 60px;
+    text-align: center;
+    color: #4e0eaa;
+    text-transform: uppercase;
+}
+.wrap__content-flex{
+    display: flex;
+    justify-content: center;
 }
