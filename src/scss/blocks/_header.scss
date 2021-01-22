@@ -9,6 +9,18 @@
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    z-index: 1;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(238, 235, 240, .5);
+        opacity: .6;
+        z-index: -1;
+    }
 }
 .wrap_header-title{
     position: absolute;
@@ -60,11 +72,12 @@
     text-align: center;
     &:hover{
         .btn{
-            color: rgba(253, 146, 5, 1);
+            color: #4e0eaa;;
+            // color: rgba(253, 146, 5, 1);
             font-size: 22px;
             font-weight: 700;
             background-color: $fontsColor;
-            border: 2px solid rgba(253, 146, 5, 1);
+            border: 2px solid #4e0eaa;;
             transition: .7s;
         }
     }

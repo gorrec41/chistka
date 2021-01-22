@@ -1,3 +1,16 @@
+include ./../mixins/_img
+
 section.mentor
     .container
         h2.section__title #{jsonData.sectionTitle}
+            .wrap__content-flex.mentor__padding
+                .mentor__img
+                    +imgbox (jsonData.mentorImg)
+                .mentor__content
+                    h3.mentor__title #{jsonData.mentorTitle}
+                    ul.mentor__list
+                        li.mentor__item #{jsonData.mentorItem1}
+                        li.mentor__item #{jsonData.mentorItem2}
+                        li.mentor__item #{jsonData.mentorItem3}
+                        li.mentor__item #{jsonData.mentorItem4}
+                        li.mentor__item #{jsonData.mentorItem5}
