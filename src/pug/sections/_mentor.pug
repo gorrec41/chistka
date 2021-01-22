@@ -2,7 +2,7 @@ include ./../mixins/_img
 
 section.mentor
     .container
-        h2.section__title #{jsonData.sectionTitle}
+        h2.section__title !#{jsonData.sectionTitle}
             .wrap__content-flex.mentor__padding
                 .mentor__img
                     +imgbox (jsonData.mentorImg)
