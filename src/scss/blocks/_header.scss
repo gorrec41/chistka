@@ -2,14 +2,15 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
+    height: 100%;
     background-color: $colorbg;
     background-image: url(./../img/header/bg2.jpg);
     animation: animation-bg 30s linear infinite;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow: hidden;
     z-index: 1;
+    padding-bottom: 100px;
 
     &::before {
         content: '';

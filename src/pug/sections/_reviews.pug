@@ -1,6 +1,8 @@
+include ./../mixins/_btn
 section.reviews
     .container
-            .reviews-carousel.owl-carousel.owl-theme
+        h2.section__title #{jsonData.sectionTitle3}
+        .reviews-carousel.owl-carousel.owl-theme
                 .item
                     p.owl-carousel__text #{jsonData.carousel__text1}
                     p #{jsonData.carousel__name1}
@@ -25,3 +27,5 @@ section.reviews
                 .item
                     p.owl-carousel__text #{jsonData.carousel__text8}
                     p #{jsonData.carousel__name8}
+    .header__btn
+        +btn(jsonData.linkHeader,jsonData.btnHeader)
