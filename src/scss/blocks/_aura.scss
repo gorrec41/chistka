@@ -1,7 +1,8 @@
-.aura{
+.aura {
     position: relative;
     z-index: 1;
-    &::after{
+
+    &::after {
         content: '';
         position: absolute;
         top: 0;
@@ -16,37 +17,43 @@
         opacity: .1;
         z-index: -1;
     }
-    &::before{
+
+    &::before {
         content: '';
         position: absolute;
         top: 0;
         left: 0;
         bottom: 0;
-        right: 0; 
-        background: rgb(38,91,219);
-        background: linear-gradient(180deg, rgba(38,91,219,1) 0%, rgba(104,236,92,0.5) 19%, rgba(38,169,219,0) 50%, rgba(245,246,6,1) 89%, rgba(38,91,219,0.4962359943977591) 95%);
+        right: 0;
+        background: rgb(38, 91, 219);
+        background: linear-gradient(180deg, rgba(38, 91, 219, 1) 0%, rgba(104, 236, 92, 0.5) 19%, rgba(38, 169, 219, 0) 50%, rgba(245, 246, 6, 1) 89%, rgba(38, 91, 219, 0.4962359943977591) 95%);
         opacity: .3;
+        z-index: -1;
     }
-    h2{
+
+    h2 {
         margin-bottom: 50px;
     }
-    
-    p{
+
+    p {
         color: #4e0eaa;
         font-size: 25px;
         margin-bottom: 30px;
-        &:last-child{
+
+        &:last-child {
             margin-bottom: 100px;
         }
     }
 
 }
-.aura__list{
-    
+
+.aura__list {
+
     margin: 0 auto;
     max-width: 800px;
     width: 100%;
-    li{
+
+    li {
         padding: 30px 20px;
         border-radius: 50px 0 50px 0;
         background-color: rgba(146, 145, 148, 0.541);
@@ -56,11 +63,13 @@
         -webkit-box-shadow: 1px -2px 11px -2px rgba(3, 81, 141, 0.6) inset;
         -moz-box-shadow: 1px -2px 11px -2px rgba(3, 81, 141, 0.6) inset;
         box-shadow: 1px -2px 11px -2px rgba(3, 81, 141, 0.6) inset;
-        &:nth-child(2n){
-            border-radius: 0 50px 0 50px ;
+
+        &:nth-child(2n) {
+            border-radius: 0 50px 0 50px;
             margin-bottom: 30px;
         }
-        &:last-child{
+
+        &:last-child {
             margin-bottom: 0;
         }
     }

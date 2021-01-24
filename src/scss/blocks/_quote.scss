@@ -1,7 +1,8 @@
-.quote{
+.quote {
     position: relative;
     z-index: 1;
-    &::after{
+
+    &::after {
         content: '';
         position: absolute;
         top: 50%;
@@ -10,12 +11,14 @@
         height: 150px;
         z-index: -1;
         border-radius: 10%;
-        transform: translate(-50%, -50%) rotate(0deg);;
+        transform: translate(-50%, -50%) rotate(0deg);
+        ;
         animation: section__quote 10s linear infinite;
         border: 5px solid #b306f7;
         opacity: .3;
     }
-    &::before{
+
+    &::before {
         content: '';
         position: absolute;
         top: 50%;
@@ -30,14 +33,16 @@
         opacity: .3;
     }
 }
-.wrap_quote{
+
+.wrap_quote {
     margin: 0 auto;
     max-width: 800px;
     padding: 0 15px;
     width: 100%;
     height: auto;
 }
-.quote__content{
+
+.quote__content {
     text-align: center;
     color: #4e0eaa;
     animation: quote 10s linear 1;

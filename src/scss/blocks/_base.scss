@@ -1,15 +1,16 @@
 .header,
-section{
+section {
     padding: 100px 0;
 }
 
-.container{
+.container {
     margin: 0 auto;
     padding: 0 15px;
     max-width: 1170px;
     height: 100%;
 }
-.btn{
+
+.btn {
     display: inline-block;
     text-align: center;
     margin: 0 auto;
@@ -18,25 +19,30 @@ section{
     color: $fontsColor;
     font-size: 22px;
     font-weight: 700;
-    background-color: #4e0eaa;;
+    background-color: #4e0eaa;
+    ;
     border: 2px solid $fontsColor;
     animation: btn-animation 10s linear infinite;
 }
-.content{
+
+.content {
     font-size: 28px;
     font-family: $fonts;
     font-weight: 500;
 }
-.section__title{
+
+.section__title {
     font-size: 60px;
     text-align: center;
     color: #4e0eaa;
     text-transform: uppercase;
 }
-.wrap__content-flex{
+
+.wrap__content-flex {
     display: flex;
     justify-content: center;
 }
-p{
+
+p {
     text-align: left;
 }
