@@ -26,16 +26,16 @@
 .reviews-carousel.owl-carousel .owl-nav .owl-next{
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 400px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 3px solid rgb(242, 242, 245);
+    border: 3px solid rgb(77, 20, 211);
     &:focus{
         outline: none;
     }
     @media (min-width: 768px){
-        bottom: 200px;  
+        bottom: 100px;  
         width: 40px;
         height: 40px;   
         border: 3px solid rgb(58, 34, 195);
