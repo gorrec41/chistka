@@ -1,22 +1,28 @@
-
 //  @font-face {
 //     font-family: Banny;
 //     src: local(Banny), url(../fonts/Banny-BoldRound.otf), url(../fonts/Banny-LightRound.otf), url(../fonts/Banny-Round.otf);
 // }
 
 @font-face {
-	font-family: 'Souvienne Bold';
-	src: url('../fonts/fonts/souvienne_bold.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/fonts/souvienne_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/fonts/souvienne_bold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/fonts/souvienne_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/fonts/souvienne_bold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/fonts/souvienne_bold.svg#souvienne_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+    font-family: 'Souvienne Bold';
+    src: url('../fonts/fonts/souvienne_bold.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/fonts/souvienne_bold.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/fonts/souvienne_bold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/fonts/souvienne_bold.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/fonts/souvienne_bold.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/fonts/souvienne_bold.svg#souvienne_bold') format('svg');
+    /* Chrome < 4, Legacy iOS */
 }
 
-*{
+* {
     box-sizing: border-box;
 }
+
 h1,
 h2,
 h3,
@@ -43,7 +49,7 @@ a {
     padding: 0;
     text-decoration: none;
 }
+
 li {
     list-style: none;
 }
-

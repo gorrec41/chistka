@@ -1,0 +1,103 @@
+.cocon {
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url(./../img/sect5/flower.svg);
+        z-index: -1;
+        opacity: .3;
+        animation: metn_opacyti 10s linear infinite;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #EEEBF0;
+        background: -webkit-radial-gradient(center, #EEEBF0, #F50E8B);
+        background: -moz-radial-gradient(center, #EEEBF0, #F50E8B);
+        background: radial-gradient(ellipse at center, #EEEBF0, #F50E8B);
+        opacity: .6;
+        z-index: -1;
+        
+    }
+    
+    h2 {
+        margin-bottom: 50px;
+    }
+    p {
+        color: #4e0eaa;
+        font-size: 25px;
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.cocon__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4e0eaa;
+    text-align: center;
+    margin-right: 250px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+ 
+    
+    @media (min-width: 660px) {
+        margin-bottom: 100px;
+        margin-right: 250px;
+        font-size: 25px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+   
+}
+.card__title{
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.card__img {
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.66);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.66);
+    box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.66);
+}
+.cocon__wrap-paragraf{
+    padding: 30px 20px;
+    border-radius: 10px;
+    border: 5px solid #fff;
+    background-color: rgba(255, 255, 255, .6);
+    margin-bottom: 100px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+    .card__title{
+        color: #4e0eaa;
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}

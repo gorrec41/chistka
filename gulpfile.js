@@ -82,12 +82,17 @@ gulp.task("copy:js", function(callback) {
     return gulp.src("./src/js/**/*.*").pipe(gulp.dest("./build/js/"));
     callback();
 });
+// Копирование библиотек
+gulp.task("copy:libs", function(callback) {
+    return gulp.src("./src/libs/**/*.*").pipe(gulp.dest("./build/libs/"));
+    callback();
+});
 
 // Слежение за HTML и CSS и обновление браузера
 gulp.task("watch", function() {
     // Следим за картинками и скриптами и обновляем браузер
     watch(
-        ["./build/js/**/*.*", "./build/img/**/*.*"],
+        ["./build/js/**/*.*", "./build/img/**/*.*","./build/libs/**/*.*"],
         gulp.parallel(browserSync.reload)
     );
 
@@ -102,6 +107,7 @@ gulp.task("watch", function() {
     // Следим за картинками и скриптами, и копируем их в build
     watch("./src/img/**/*.*", gulp.parallel("copy:img"));
     watch("./src/js/**/*.*", gulp.parallel("copy:js"));
+    watch("./src/libs/**/*.*", gulp.parallel("copy:libs"));
 });
 
 // Задача для старта сервера из папки app
@@ -123,7 +129,7 @@ gulp.task(
     "default",
     gulp.series(
         gulp.parallel("clean:build"),
-        gulp.parallel("scss", "pug", "copy:img", "copy:js"),
+        gulp.parallel("scss", "pug", "copy:img", "copy:js","copy:libs"),
         gulp.parallel("server", "watch")
     )
 );
