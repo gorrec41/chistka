@@ -1,7 +1,6 @@
 .quote {
     position: relative;
     z-index: 1;
-
     &::after {
         content: '';
         position: absolute;
@@ -46,4 +45,8 @@
     text-align: center;
     color: #4e0eaa;
     animation: quote 10s linear 1;
+    margin-bottom: 50px;
+    &:last-child{
+        margin-bottom: 0;
+    }
 }
